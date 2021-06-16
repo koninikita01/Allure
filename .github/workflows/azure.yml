@@ -3,7 +3,9 @@ name: Allure CI
 on: 
   push:
     branches: [ allure ]
-  
+ 
+jobs:
+  name: end to end
   steps:
      - name: "Checkout"
        uses: actions/checkout@v2
