@@ -4,39 +4,39 @@
     "name" : "Digital Hybrid > login",
     "children" : [ {
       "name" : "validate success message with valid credentials",
-      "uid" : "4d0f72b54a673d93",
+      "uid" : "a6af655f42f6d925",
       "parentUid" : "8fcd044833232281576d2255b37fb69c",
       "status" : "passed",
       "time" : {
-        "start" : 1623854500383,
-        "stop" : 1623854504694,
-        "duration" : 4311
+        "start" : 1623855947289,
+        "stop" : 1623855951571,
+        "duration" : 4282
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "validate error msg on login with blank username and password",
-      "uid" : "435b83e8747aad41",
+      "uid" : "ec70a2a37b4602a8",
       "parentUid" : "8fcd044833232281576d2255b37fb69c",
       "status" : "passed",
       "time" : {
-        "start" : 1623854504695,
-        "stop" : 1623854505688,
-        "duration" : 993
+        "start" : 1623855951571,
+        "stop" : 1623855952590,
+        "duration" : 1019
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "validate error msg on login with incorrect credentials",
-      "uid" : "7751d8281b951160",
+      "uid" : "4f5faaf0de45baf8",
       "parentUid" : "8fcd044833232281576d2255b37fb69c",
       "status" : "passed",
       "time" : {
-        "start" : 1623854505689,
-        "stop" : 1623854506685,
-        "duration" : 996
+        "start" : 1623855952590,
+        "stop" : 1623855953588,
+        "duration" : 998
       },
       "flaky" : false,
       "newFailed" : false,

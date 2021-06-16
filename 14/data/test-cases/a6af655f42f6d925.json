@@ -1,12 +1,12 @@
 {
-  "uid" : "435b83e8747aad41",
-  "name" : "validate error msg on login with blank username and password",
-  "fullName" : "Digital Hybrid > login.validate error msg on login with blank username and password",
-  "historyId" : "36936e5ef21ee9b230f85a12af218bc4",
+  "uid" : "a6af655f42f6d925",
+  "name" : "validate success message with valid credentials",
+  "fullName" : "Digital Hybrid > login.validate success message with valid credentials",
+  "historyId" : "1deb9f6f01c7a11c9d85bffd472d03b0",
   "time" : {
-    "start" : 1623854504695,
-    "stop" : 1623854505688,
-    "duration" : 993
+    "start" : 1623855947289,
+    "stop" : 1623855951571,
+    "duration" : 4282
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -32,7 +32,7 @@
     "value" : "Digital Hybrid > login"
   }, {
     "name" : "testMethod",
-    "value" : "validate error msg on login with blank username and password"
+    "value" : "validate success message with valid credentials"
   }, {
     "name" : "package",
     "value" : "Digital Hybrid > login"
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "435b83e8747aad41.json",
+  "source" : "a6af655f42f6d925.json",
   "parameterValues" : [ "chrome" ]
 }

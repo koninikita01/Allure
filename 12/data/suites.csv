@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Jun 16 14:41:44 GMT 2021","Wed Jun 16 14:41:45 GMT 2021","993","","Digital Hybrid > login","","Digital Hybrid > login","validate error msg on login with blank username and password","validate error msg on login with blank username and password",""
-"passed","Wed Jun 16 14:41:40 GMT 2021","Wed Jun 16 14:41:44 GMT 2021","4311","","Digital Hybrid > login","","Digital Hybrid > login","validate success message with valid credentials","validate success message with valid credentials",""
-"passed","Wed Jun 16 14:41:45 GMT 2021","Wed Jun 16 14:41:46 GMT 2021","996","","Digital Hybrid > login","","Digital Hybrid > login","validate error msg on login with incorrect credentials","validate error msg on login with incorrect credentials",""
