@@ -1,0 +1,7 @@
+{
+    "include": [".ts","src/pageobjects/*.ts","src/specs/loginTest.ts","wdio.conf.ts"],
+    "compilerOptions": {
+      "target": "ES2018",
+      "types": ["node", "webdriverio/async", "@wdio/mocha-framework","chai","expect-webdriverio"]
+  }
+}

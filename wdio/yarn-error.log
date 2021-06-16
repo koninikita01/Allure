@@ -1,0 +1,78 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\nikit\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_221;C:\Windows\System32;D:\Work2021\jestDH\testDH\node_modules\webdriver-manager\selenium\geckodriver-v0.29.1.exe;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;D:\Work2021\TWSDH\digital-hybrid\node_modules\chromedriver\lib\chromedriver\chromedriver.exe;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.2\bin;;C:\Users\nikit\AppData\Local\Microsoft\WindowsApps;C:\Users\nikit\.dotnet\tools;C:\Users\nikit\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Windows\System32;C:\Users\nikit\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@tsw%2feslint-config: Not found
+      at Request.params.callback [as _callback] (C:\Users\nikit\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\nikit\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\nikit\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\nikit\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "@tsw/testing-wdio",
+    "version": "1.0.0",
+    "scripts": {
+      "@comment test": "echo 'This is a comment. To open the Allure report: wdio run ./wdio.conf.ts --spec .\\tests\\example.e2e.ts && allure generate --clean && allure open. Or just 'allure generate --clean' then 'allure serve''",
+      "format": "yarn g:format --write src/**/*.{js,ts,md,json}; yarn lint:fix",
+      "lint": "mkdir -p eslintreport && yarn lint:check --format html > eslintreport/index.html",
+      "lint:check": "yarn g:lint src/**/*.{js,ts}",
+      "lint:fix": "yarn lint:check --fix",
+      "typecheck": "yarn g:typecheck",
+      "typecheck:watch": "yarn typecheck -w --pretty",
+      "test:wdio": "wdio run wdio.conf.ts --baseUrl='https://stukstswstagingdh.azureedge.net/'",
+      "allure:open": "allure open",
+      "allure:serve": "allure serve"
+    },
+    "devDependencies": {
+      "@tsw/eslint-config": "workspace:packages/shared-config/eslint",
+      "@tsw/typescript-config": "workspace:packages/shared-config/typescript",
+      "@types/chai": "^4.2.18",
+      "@typescript-eslint/eslint-plugin": "^4.22.0",
+      "@wdio/allure-reporter": "5.5.0",
+      "@wdio/cli": "^7.5.7",
+      "@wdio/firefox-profile-service": "^7.5.3",
+      "@wdio/local-runner": "^7.5.7",
+      "@wdio/mocha-framework": "^7.5.3",
+      "@wdio/selenium-standalone-service": "^7.6.0",
+      "allure-commandline": "^2.13.8",
+      "chai": "^4.3.4",
+      "chromedriver": "^91.0.0",
+      "dotenv": "^8.2.0",
+      "env-var": "^7.0.0",
+      "husky": "^4.3.8",
+      "lint-staged": "^10.5.3",
+      "ts-node": "^9.1.1",
+      "typescript": "^4.2.4",
+      "wdio-chromedriver-service": "^7.1.0",
+      "wdio-video-reporter": "^3.1.1"
+    },
+    "directories": {
+      "test": "tests"
+    },
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
