@@ -17,21 +17,21 @@ jobs:
        with:
          node-version: 14.x
 
-     - name : go to wdio dir
-       working-directory: ./wdio
-
      - name : check pwd
        run : pwd
        
      - name : yarn install
+       working-directory: ./wdio
        run: yarn install
   
      - name: "Run E2E UI tests"
+       working-directory: ./wdio
        run : yarn test:e2e:wdio
        env :
           URL: 'http://https://stukstswstagingdh.azureedge.net/'
 
      - name: Test marketplace action
+       working-directory: ./wdio
        uses: simple-elf/allure-report-action@master
        if: always()
        id: allure-report
@@ -42,6 +42,7 @@ jobs:
          allure_history: ./allure-history
      
      - name: Deploy report to Github Pages
+      working-directory: ./wdio
        if: always()
        uses: peaceiris/actions-gh-pages@v2
        env:
