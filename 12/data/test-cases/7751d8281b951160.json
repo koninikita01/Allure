@@ -1,0 +1,58 @@
+{
+  "uid" : "7751d8281b951160",
+  "name" : "validate error msg on login with incorrect credentials",
+  "fullName" : "Digital Hybrid > login.validate error msg on login with incorrect credentials",
+  "historyId" : "c98e96db4fa0003bf4156e5a11447c9e",
+  "time" : {
+    "start" : 1623854505689,
+    "stop" : 1623854506685,
+    "duration" : 996
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Digital Hybrid > login"
+  }, {
+    "name" : "testClass",
+    "value" : "Digital Hybrid > login"
+  }, {
+    "name" : "testMethod",
+    "value" : "validate error msg on login with incorrect credentials"
+  }, {
+    "name" : "package",
+    "value" : "Digital Hybrid > login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7751d8281b951160.json",
+  "parameterValues" : [ "chrome" ]
+}

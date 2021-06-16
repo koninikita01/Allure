@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "validate success message with valid credentials",
+    "uid" : "4d0f72b54a673d93",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1623854500383,
+      "stop" : 1623854504694,
+      "duration" : 4311
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "validate error msg on login with blank username and password",
+    "uid" : "435b83e8747aad41",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1623854504695,
+      "stop" : 1623854505688,
+      "duration" : 993
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "validate error msg on login with incorrect credentials",
+    "uid" : "7751d8281b951160",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1623854505689,
+      "stop" : 1623854506685,
+      "duration" : 996
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  } ],
+  "name" : "behaviors"
+}

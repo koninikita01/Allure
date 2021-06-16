@@ -1,0 +1,58 @@
+{
+  "uid" : "435b83e8747aad41",
+  "name" : "validate error msg on login with blank username and password",
+  "fullName" : "Digital Hybrid > login.validate error msg on login with blank username and password",
+  "historyId" : "36936e5ef21ee9b230f85a12af218bc4",
+  "time" : {
+    "start" : 1623854504695,
+    "stop" : 1623854505688,
+    "duration" : 993
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Digital Hybrid > login"
+  }, {
+    "name" : "testClass",
+    "value" : "Digital Hybrid > login"
+  }, {
+    "name" : "testMethod",
+    "value" : "validate error msg on login with blank username and password"
+  }, {
+    "name" : "package",
+    "value" : "Digital Hybrid > login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "435b83e8747aad41.json",
+  "parameterValues" : [ "chrome" ]
+}

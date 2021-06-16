@@ -1,0 +1,58 @@
+{
+  "uid" : "4d0f72b54a673d93",
+  "name" : "validate success message with valid credentials",
+  "fullName" : "Digital Hybrid > login.validate success message with valid credentials",
+  "historyId" : "1deb9f6f01c7a11c9d85bffd472d03b0",
+  "time" : {
+    "start" : 1623854500383,
+    "stop" : 1623854504694,
+    "duration" : 4311
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Digital Hybrid > login"
+  }, {
+    "name" : "testClass",
+    "value" : "Digital Hybrid > login"
+  }, {
+    "name" : "testMethod",
+    "value" : "validate success message with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Digital Hybrid > login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d0f72b54a673d93.json",
+  "parameterValues" : [ "chrome" ]
+}
