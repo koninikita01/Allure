@@ -18,7 +18,7 @@ jobs:
          node-version: 14.x
 
      - name : go to wdio dir
-       run : cd ./wdio
+       working-directory: ./wdio
 
      - name : check pwd
        run : pwd
