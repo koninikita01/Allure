@@ -26,7 +26,7 @@ jobs:
   
      - name: "Run E2E UI tests"
        working-directory: ./wdio
-       run : yarn test:e2e:wdio
+       run : yarn test:wdio
        env :
           URL: 'http://https://stukstswstagingdh.azureedge.net/'
 
