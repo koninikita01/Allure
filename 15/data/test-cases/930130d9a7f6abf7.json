@@ -1,12 +1,12 @@
 {
-  "uid" : "4f5faaf0de45baf8",
-  "name" : "validate error msg on login with incorrect credentials",
-  "fullName" : "Digital Hybrid > login.validate error msg on login with incorrect credentials",
-  "historyId" : "c98e96db4fa0003bf4156e5a11447c9e",
+  "uid" : "930130d9a7f6abf7",
+  "name" : "validate success message with valid credentials",
+  "fullName" : "Digital Hybrid > login.validate success message with valid credentials",
+  "historyId" : "1deb9f6f01c7a11c9d85bffd472d03b0",
   "time" : {
-    "start" : 1623855952590,
-    "stop" : 1623855953588,
-    "duration" : 998
+    "start" : 1623856137051,
+    "stop" : 1623856140671,
+    "duration" : 3620
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -32,7 +32,7 @@
     "value" : "Digital Hybrid > login"
   }, {
     "name" : "testMethod",
-    "value" : "validate error msg on login with incorrect credentials"
+    "value" : "validate success message with valid credentials"
   }, {
     "name" : "package",
     "value" : "Digital Hybrid > login"
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4f5faaf0de45baf8.json",
+  "source" : "930130d9a7f6abf7.json",
   "parameterValues" : [ "chrome" ]
 }

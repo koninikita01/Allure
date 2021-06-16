@@ -1,0 +1,31 @@
+[ {
+  "uid" : "ce113c33743b2cae",
+  "name" : "validate error msg on login with blank username and password",
+  "time" : {
+    "start" : 1623856140671,
+    "stop" : 1623856141728,
+    "duration" : 1057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "930130d9a7f6abf7",
+  "name" : "validate success message with valid credentials",
+  "time" : {
+    "start" : 1623856137051,
+    "stop" : 1623856140671,
+    "duration" : 3620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "650186165adaaceb",
+  "name" : "validate error msg on login with incorrect credentials",
+  "time" : {
+    "start" : 1623856141729,
+    "stop" : 1623856142801,
+    "duration" : 1072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

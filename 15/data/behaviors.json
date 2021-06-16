@@ -2,39 +2,39 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "validate success message with valid credentials",
-    "uid" : "a6af655f42f6d925",
+    "uid" : "930130d9a7f6abf7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1623855947289,
-      "stop" : 1623855951571,
-      "duration" : 4282
+      "start" : 1623856137051,
+      "stop" : 1623856140671,
+      "duration" : 3620
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "validate error msg on login with blank username and password",
-    "uid" : "ec70a2a37b4602a8",
+    "uid" : "ce113c33743b2cae",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1623855951571,
-      "stop" : 1623855952590,
-      "duration" : 1019
+      "start" : 1623856140671,
+      "stop" : 1623856141728,
+      "duration" : 1057
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "validate error msg on login with incorrect credentials",
-    "uid" : "4f5faaf0de45baf8",
+    "uid" : "650186165adaaceb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1623855952590,
-      "stop" : 1623855953588,
-      "duration" : 998
+      "start" : 1623856141729,
+      "stop" : 1623856142801,
+      "duration" : 1072
     },
     "flaky" : false,
     "newFailed" : false,

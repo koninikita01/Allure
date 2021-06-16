@@ -1,48 +1,48 @@
 {
-  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
     "name" : "Digital Hybrid > login",
     "children" : [ {
       "name" : "validate success message with valid credentials",
-      "uid" : "a6af655f42f6d925",
-      "parentUid" : "d9d18d327332fbde7d1bc6034e1a3cf3",
+      "uid" : "930130d9a7f6abf7",
+      "parentUid" : "8fcd044833232281576d2255b37fb69c",
       "status" : "passed",
       "time" : {
-        "start" : 1623855947289,
-        "stop" : 1623855951571,
-        "duration" : 4282
+        "start" : 1623856137051,
+        "stop" : 1623856140671,
+        "duration" : 3620
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "validate error msg on login with blank username and password",
-      "uid" : "ec70a2a37b4602a8",
-      "parentUid" : "d9d18d327332fbde7d1bc6034e1a3cf3",
+      "uid" : "ce113c33743b2cae",
+      "parentUid" : "8fcd044833232281576d2255b37fb69c",
       "status" : "passed",
       "time" : {
-        "start" : 1623855951571,
-        "stop" : 1623855952590,
-        "duration" : 1019
+        "start" : 1623856140671,
+        "stop" : 1623856141728,
+        "duration" : 1057
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "validate error msg on login with incorrect credentials",
-      "uid" : "4f5faaf0de45baf8",
-      "parentUid" : "d9d18d327332fbde7d1bc6034e1a3cf3",
+      "uid" : "650186165adaaceb",
+      "parentUid" : "8fcd044833232281576d2255b37fb69c",
       "status" : "passed",
       "time" : {
-        "start" : 1623855952590,
-        "stop" : 1623855953588,
-        "duration" : 998
+        "start" : 1623856141729,
+        "stop" : 1623856142801,
+        "duration" : 1072
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "d9d18d327332fbde7d1bc6034e1a3cf3"
+    "uid" : "8fcd044833232281576d2255b37fb69c"
   } ],
-  "name" : "suites"
+  "name" : "packages"
 }

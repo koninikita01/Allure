@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://koninikita01.github.io/Allure",
+  "buildOrder" : 15,
+  "buildName" : "GitHub Actions Run #943331355",
+  "buildUrl" : "https://github.com/koninikita01/Allure/actions/runs/943331355",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://koninikita01.github.io/Allure/15/"
+} ]
