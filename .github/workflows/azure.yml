@@ -6,7 +6,7 @@ on:
  
 jobs:
   name: end to end
-  steps:
+    steps:
      - name: "Checkout"
        uses: actions/checkout@v2
 
