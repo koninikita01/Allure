@@ -5,7 +5,9 @@ on:
     branches: [ allure ]
  
 jobs:
-  name: end to end
+  end_to_end:
+    name: "end to end"
+    runs-on: ubuntu-latest
     steps:
      - name: "Checkout"
        uses: actions/checkout@v2
