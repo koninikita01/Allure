@@ -42,7 +42,7 @@ jobs:
          allure_history: ./allure-history
      
      - name: Deploy report to Github Pages
-      working-directory: ./wdio
+       working-directory: ./wdio
        if: always()
        uses: peaceiris/actions-gh-pages@v2
        env:
